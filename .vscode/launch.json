@@ -2,14 +2,21 @@
     "configurations": [
       {
         "type": "java",
-        "name": "WorkOrderProServiceApplication",
+        "name": "ShopFlowProServiceApplication",
         "request": "launch",
-        "mainClass": "com.wsu.workorderproservice.WorkOrderProServiceApplication",
+        "mainClass": "com.wsu.shopflowproservice.ShopFlowProServiceApplication",
+        "projectName": "microservices-assignment-7-Krackido"
+      },
+      {
+        "type": "java",
+        "name": "ShopFlowProServiceApplication",
+        "request": "launch",
+        "mainClass": "com.wsu.shopflowproservice.ShopFlowProServiceApplication",
         "projectName": "microservices-assignment-1",
         "args": "",
         "env": {
           "SERVER_PORT": "8080",
-          "SERVER_CONTEXT_PATH": "/work-order-pro-service"
+          "SERVER_CONTEXT_PATH": "/shop-flow-pro-service"
         }
       }
     ]
